@@ -1,6 +1,6 @@
 # CubeMars Motor Control with MCP2515 and ESP32
 
-This repository contains Arduino sketches for controlling CubeMars motors using the MCP2515 CAN bus controller interfaced with an ESP32 microcontroller. Two versions of the code are provided: one for controlling a single motor (`cubemars_one_motor.ino`) and another for controlling multiple motors (`cubemars_mult_motor.ino`).
+This repository contains Arduino sketches for controlling CubeMars motors using the MCP2515 CAN bus controller interfaced with an ESP32 microcontroller. Two versions of the code are provided: one for controlling a single motor (`cubemars_one_motor.ino`) and another for controlling multiple motors (`cubemars_mult_motor.ino`). This code was built based on the code provided in the [video](https://www.youtube.com/watch?v=UWc_7-8gXeE) with parameters adapted for the [CubeMars AK70-10](https://www.cubemars.com/product/ak70-10-kv100-robotic-actuator.html), alternative CAN bus library and support of multiple motors. 
 
 ## Hardware Setup
 
@@ -18,7 +18,7 @@ Ensure proper connections between the ESP32 and the MCP2515 module, and connect 
 
 ### Required Library
 The code uses the MCP2515 library, which can be downloaded from:
-[https://github.com/autowp/arduino-mcp2515](https://github.com/autowp/arduino-mcp2515)
+[link](https://github.com/autowp/arduino-mcp2515)
 
 Install the library in your Arduino IDE by adding the `.zip` file or cloning the repository into your Arduino libraries folder.
 
